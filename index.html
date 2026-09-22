@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Ujian Digital SD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-100 min-h-screen">
+
+    <!-- Header Navbar -->
+    <nav class="bg-blue-800 text-white p-4 shadow-md flex justify-between items-center px-6">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-800 font-bold">SD</div>
+            <div>
+                <h1 class="font-bold text-lg">Sekolah Dasar Kelas 1 s.d. 6</h1>
+                <p class="text-xs text-blue-200">Aplikasi Ujian Digital - Admin Sekolah</p>
+            </div>
+        </div>
+        <div class="flex items-center space-x-6 text-sm">
+            <a href="#" class="hover:text-blue-200"><i class="fa-solid fa-house mr-1"></i> Dashboard</a>
+            <a href="#" class="hover:text-blue-200"><i class="fa-solid fa-user-gear mr-1"></i> Admin Sekolah</a>
+        </div>
+    </nav>
+
+    <!-- Kartu Menu Utama -->
+    <div class="max-w-6xl mx-auto mt-10 p-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        
+        <!-- Menu 1: Daftar Sekolah -->
+        <a href="https://forms.google.com" target="_blank" class="bg-gradient-to-br from-orange-400 to-amber-500 text-white rounded-2xl p-6 shadow-lg flex flex-col justify-between h-56 hover:scale-105 transition">
+            <div class="text-center">
+                <i class="fa-solid fa-school text-5xl mb-4"></i>
+                <h2 class="text-xl font-bold">Daftar Sekolah</h2>
+            </div>
+            <div class="self-end bg-white/20 p-2 rounded-full w-8 h-8 flex items-center justify-center">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </a>
+
+        <!-- Menu 2: Login Siswa -->
+        <a href="#login-siswa" class="bg-gradient-to-br from-cyan-400 to-teal-500 text-white rounded-2xl p-6 shadow-lg flex flex-col justify-between h-56 hover:scale-105 transition">
+            <div class="text-center">
+                <i class="fa-solid fa-user-plus text-5xl mb-4"></i>
+                <h2 class="text-xl font-bold">Login Siswa</h2>
+            </div>
+            <div class="self-end bg-white/20 p-2 rounded-full w-8 h-8 flex items-center justify-center">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </a>
+
+        <!-- Menu 3: Admin Pusat -->
+        <a href="#admin-pusat" class="bg-gradient-to-br from-purple-500 to-indigo-600 text-white rounded-2xl p-6 shadow-lg flex flex-col justify-between h-56 hover:scale-105 transition">
+            <div class="text-center">
+                <i class="fa-solid fa-user-gear text-5xl mb-4"></i>
+                <h2 class="text-xl font-bold">Admin Pusat</h2>
+            </div>
+            <div class="self-end bg-white/20 p-2 rounded-full w-8 h-8 flex items-center justify-center">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </a>
+
+        <!-- Menu 4: Admin Sekolah -->
+        <a href="#admin-sekolah" class="bg-gradient-to-br from-blue-600 to-blue-800 text-white rounded-2xl p-6 shadow-lg flex flex-col justify-between h-56 hover:scale-105 transition">
+            <div class="text-center">
+                <i class="fa-solid fa-school-flag text-5xl mb-4"></i>
+                <h2 class="text-xl font-bold">Admin Sekolah</h2>
+            </div>
+            <div class="self-end bg-white/20 p-2 rounded-full w-8 h-8 flex items-center justify-center">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </a>
+
+        <!-- Menu 5: Barcode Masuk -->
+        <a href="#barcode" class="bg-gradient-to-br from-indigo-400 to-indigo-600 text-white rounded-2xl p-6 shadow-lg flex flex-col justify-between h-56 hover:scale-105 transition">
+            <div class="text-center">
+                <i class="fa-solid fa-qrcode text-5xl mb-4"></i>
+                <h2 class="text-lg font-bold">Barcode Masuk Aplikasi</h2>
+            </div>
+            <div class="self-end bg-white/20 p-2 rounded-full w-8 h-8 flex items-center justify-center">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </a>
+
+    </div>
+
+    <!-- Running Text / Informasi -->
+    <div class="max-w-6xl mx-auto mt-6 p-4">
+        <div class="bg-white rounded-xl shadow-sm p-4 flex items-center space-x-3 text-slate-700">
+            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full font-bold">Asesmen Berbasis Digital</span>
+            <p class="text-sm">Pembelajaran dan penilaian yang tertib, transparan, dan mudah diakses.</p>
+        </div>
+    </div>
+
+</body>
+</html>
